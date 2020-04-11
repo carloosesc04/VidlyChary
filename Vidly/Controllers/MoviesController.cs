@@ -9,6 +9,7 @@ using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
+    //Just practicing 
     public class MoviesController : Controller
     {
         private ApplicationDbContext _context;
