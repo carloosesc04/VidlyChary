@@ -45,7 +45,7 @@ namespace Vidly.Controllers
                 Genres = genres
             };
 
-            return View("MovieForm", "viewModel");
+            return View("MovieForm", viewModel);
         }
 
         public ActionResult Edit (int id)
@@ -59,7 +59,7 @@ namespace Vidly.Controllers
                 Genres = _context.Genres.ToList()
             };
 
-            return View("MovieForm", "viewModel");
+            return View("MovieForm", viewModel);
         }
 
         public ActionResult Details(int id)
